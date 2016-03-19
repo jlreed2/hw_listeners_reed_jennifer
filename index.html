@@ -8,10 +8,23 @@
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body class="container">
-    <h1 id="heading">Click Me</h1>
-
-
-    <script src="js/main.js"></script>
+<body>
+    <div class="container">
+        <form>
+            <label for="firstname">First Name:</label>
+            <input type="text" name="firstname" id="firstname" size="40" placeholder=
+            "Your First Name" autofocus/>
+            <label for="lastname">Last Name:</label>
+            <input type="text" name="lastname" id="lastname" size="40" placeholder=
+            "Your Last Name">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" size="40" placeholder=
+            "Email Address" />
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" rows="10" cols="40"></textarea>
+            <input type="submit" name="submit" id="submit" value="Submit" />
+        </form>
+        <script src="js/main.js"></script>
+    </div>
 </body>
 </html>
