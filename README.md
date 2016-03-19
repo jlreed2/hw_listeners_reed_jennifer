@@ -17,3 +17,5 @@
 
 ##Comments
 * Conceptually I understood event listeners after reading through the handout. Watching the lecture helped as well. But when it came time to put it all into practice, I understood what I was to be doing, but had a very hard time actually executing it initially. Once I got the form to work, the custom branch seemed almost easy. Almost. 
+
+* I'm almost positive there is a simplified way to code logging each input on the form to the console, but I couldn't find one that worked (by my own trial and error). If you could point me in a better direction for that, I'd appreciate it. 
