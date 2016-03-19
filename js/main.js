@@ -1,24 +1,20 @@
-var nameInput = document.getElementById( 'firstname' );
+/* Double clicking the h1 will log the message in the console */
+var heading = document.getElementById( 'header1' );
 
-document.querySelector( 'form' ).addEventListener( 'submit', function( a ) {
-    a.preventDefault();
-    console.log( firstname.value );
+heading.addEventListener( 'dblclick', function() {
+    console.log( 'Clicking me does nothing' );
 } );
 
-var nameInput = document.getElementById( 'lastname' );
-document.querySelector( 'form' ).addEventListener( 'submit', function( e ) {
-    e.preventDefault();
-    console.log( lastname.value );
+/* Clicking the link will alert with message */
+var link = document.getElementById( 'facts' );
+
+link.addEventListener( 'click', function() {
+    alert( 'Are you sure you want cat facts?' );
 } );
 
-var nameInput = document.getElementById( 'email' );
-document.querySelector( 'form' ).addEventListener( 'submit', function( f ) {
-    f.preventDefault();
-    console.log( email.value );
-} );
+/* Mousing over the paragraph will change its color */
+var paragraph = document.getElementById( 'paragraph' );
 
-var nameInput = document.getElementById( 'message' );
-document.querySelector( 'form' ).addEventListener( 'submit', function( g ) {
-    g.preventDefault();
-    console.log( message.value );
+paragraph.addEventListener( 'mouseover', function() {
+    paragraph.className = 'gray';
 } );
